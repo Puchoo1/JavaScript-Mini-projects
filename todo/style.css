@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #C4D7F2;
+}
+.head{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-bottom: 5rem;
+}
+.container{
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F0F7EE;
+}
+.input-section{
+    /* border: 1px solid black; */
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+
+    
+    }
+    
+.input-section input{
+    padding: 1.2rem;
+    /* outline: none; */
+    /* border: none; */
+    width: 60%;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.red-placeholder::placeholder{
+    color: red;
+}
+.input-section button{
+    padding: 1.2rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    background-color: rgb(26, 124, 26);
+    color: white;
+    border-radius: 10px;
+    width: 30%;
+    letter-spacing: 2px;
+}
+.input-section button:hover{
+    background-color: rgb(18, 170, 18);
+    color: whitesmoke;
+    /* font-size: 1.5rem; */
+}
+
+ul{
+    /* width: 100%; */
+    /* border: 1px solid black; */
+    width: 69%;
+    /* margin-top: 1rem; */
+    list-style: none;
+}
+ul li{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 1.2rem 0rem;
+    padding: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    
+
+}
+.hoverEffect:hover{
+    background-color: cornflowerblue;
+    color: white;
+    
+}
+
+
+ul li i:hover{
+    background-color: red;
+    width: 3rem;
+    /* aspect-ratio: 1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+
+
+
+
+@media (max-width: 1200px) {
+    .input-section button {
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+    .input-section input {
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+    ul li {
+        font-size: 1.1rem;
+    }
+    .container {
+        width: 80%;
+    }
+    .input-section {
+        width: 100%;
+    }
+    ul {
+        width: 100%;
+    }
+}
+@media (max-width: 800px) {
+    .input-section button {
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+    .input-section input {
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+    ul li {
+        font-size: 1.1rem;
+    }
+    .container {
+        width: 80%;
+    }
+    .input-section {
+        width: 100%;
+    }
+    ul {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 80%;
+    }
+    .input-section {
+        width: 100%;
+    }
+    ul {
+        width: 100%;
+    }
+}
